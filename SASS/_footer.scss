@@ -1,0 +1,32 @@
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    position: relative;
+
+    footer ul li {
+        display: inline-block;
+        background: white;
+        footer ul li img {
+            width: 30px;
+            height: 30px;
+            background: white;
+        }
+        footer div li img {
+            width: 30px;
+            height: 30px;
+            background: white;
+            
+        }
+        
+    }
+    footer div ul {
+        font-size: 15px;
+    }
+    
+    footer div h2 {
+        font-size: 18px;
+    }
+}

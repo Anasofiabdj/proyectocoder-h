@@ -6,21 +6,6 @@
   background: white;
 }
 
-a:link {
-  text-decoration: none;
-  transition: 0.4s;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
 header h1 {
   background: white;
   padding: 30px;
@@ -37,6 +22,11 @@ header nav ul li {
   flex-direction: row;
 }
 
+.opciones {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 1024px) {
   .opciones {
     justify-content: center;
@@ -49,21 +39,23 @@ a:hover {
   border-radius: 3px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/*Categorias */
 .categoriasli {
   margin-top: 80px;
   font-size: 20px;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 @media (max-width: 1024px) {
   .categoriasli {
     margin-left: 10%;
     flex-direction: column;
-  }
-}
-@media (max-width: 1024px) {
-  .cajas2 {
-    grid-template-columns: 1fr;
-    margin: 0%;
   }
 }
 a:hover {
@@ -100,6 +92,22 @@ section .seccion-img img {
 section .cajas2 {
   display: grid;
   grid-template-columns: auto auto auto auto;
+}
+
+@media (max-width: 1024px) {
+  .cajas2 {
+    grid-template-columns: 1fr;
+    margin: 0%;
+  }
+}
+/*imagenes*/
+.imagen2 {
+  transition: 0.7s;
+}
+
+.imagen2:hover {
+  transform: scale(0.9, 0.9);
+  transition: 0.7s;
 }
 
 .contenedorcontacto {
@@ -154,6 +162,7 @@ textarea {
     width: 100%;
   }
 }
+/*LINK DE UBICACION */
 .ubicacionlink {
   margin: auto;
   text-align: center;
@@ -197,24 +206,37 @@ footer footer div h2 {
   filter: brightness(0.6);
 }
 
+.pregfrec {
+  padding: 15px 20px;
+  border-top: solid 2px whitesmoke;
+}
+.pregfrec ul h2 {
+  font-family: "Julius Sans One", sans-serif;
+}
+
 .modo-de-compra {
   padding: 15px 20px;
   border-top: solid 2px whitesmoke;
 }
-
-.pregfrec {
-  padding: 15px 20px;
-  border-top: solid 2px whitesmoke;
+.modo-de-compra h2 {
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .ayuda-compra {
   padding: 15px 20px;
   border-top: solid 2px whitesmoke;
 }
+.ayuda-compra h2 {
+  font-family: "Julius Sans One", sans-serif;
+}
 
-.opciones {
-  display: flex;
-  justify-content: space-between;
+a:link {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+html {
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

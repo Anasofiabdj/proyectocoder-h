@@ -1,0 +1,32 @@
+section {
+    display: flex;
+    justify-content: space-around;
+    .seccion-img img {
+        display: inline-block;
+        width: 290px;
+        height: 300px;
+        margin: 30px
+    }
+    .cajas2 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    
+    
+    }
+}
+@media (max-width: 1024px){
+    .cajas2 {
+        grid-template-columns: 1fr;
+        margin:0%;
+        
+    }
+}
+
+/*imagenes*/
+.imagen2 {
+    transition: .7s;
+}
+.imagen2:hover {
+    transform: scale(0.90,0.90);
+    transition: .7s;
+}

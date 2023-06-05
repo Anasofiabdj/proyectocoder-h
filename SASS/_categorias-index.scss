@@ -1,0 +1,29 @@
+/*Categorias */
+.categoriasli {
+    margin-top: 80px;
+font-size: 20px;
+font-family: $fuentes;
+}
+
+@media (max-width: 1024px) {
+    .categoriasli{
+    margin-left: 10%;
+    flex-direction: column;
+    }
+}
+a:hover {
+    background-color: rgb(247, 179, 201, 0.40);
+    margin-top: 80px;
+}
+.cat2 {
+    margin-top: 20px;
+}
+.cat3 {
+    margin-top: 20px;
+}
+.cat4 {
+    margin-top: 20px;
+}
+.cat5 {
+    margin-top: 20px;
+}

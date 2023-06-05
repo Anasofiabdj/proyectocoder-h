@@ -1,0 +1,53 @@
+.contenedorcontacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form {
+    width: 450px;
+    margin: auto;
+    background-color: rgba(155, 17, 102, 0.438);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: monospace;
+}
+.titulocontact {
+    background-color:  rgba(155, 17, 102, 0);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton {
+    background: #020000ec;
+    color: #fff;
+    padding: 20px;
+}
+@media (max-width: 500px) {
+    form {
+        width: 100%;
+    }
+}
+
+/*LINK DE UBICACION */
+.ubicacionlink {
+    margin:auto;
+    text-align: center;
+    
+}
