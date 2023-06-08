@@ -1,7 +1,17 @@
 .modo-de-compra {
+    width:500px;
+    height: 300px;
+    border-radius: 8px;
+    border-style: double;
+    border-color: lightpink;
+    margin: auto;
     padding: 15px 20px;
-    border-top: solid 2px whitesmoke;
+   
    h2 {
+    font-size: 30px;
     font-family: $fuentes;
+   }
+   ul li {
+    margin: 10px;
    }
 }
